@@ -1,0 +1,115 @@
+
+
+.row-container{
+	margin:0 auto;
+	}
+
+.row-container > [class^="column-"]{
+	float: left;
+	min-height: 1px;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 2%;
+}
+
+
+.row-container > [class^="column-"]:first-child{
+margin-left:0;
+
+}
+
+.row-container > [class^="column-"]:last-child{
+float:right;
+
+}
+
+@media (min-width:769px){
+
+
+
+
+.column-1{
+	width:6.5%;
+}
+
+
+.column-2{
+	width:15%;
+}
+
+.column-3{
+	width:23.5%;
+}
+
+
+.column-4{
+	width:32%;
+}
+
+.column-5{
+	width:40.5%;
+}
+
+
+.column-6{
+	width:49%;
+}
+
+
+.column-7{
+	width:57.5%;
+}
+
+.column-8{
+	width:66%;
+}
+
+.column-9{
+	width:74.5%;
+}
+
+.column-10{
+	width:83%;
+}
+
+.column-11{
+	width:91.5%;
+}
+
+.column-12{
+	width:100%;
+}
+
+
+
+
+}
+
+.row-container:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+
+@media (min-width:1200px){
+
+.row-container{
+
+width:95%;
+max-width: 1280px;
+
+}
+}
+
+@media (min-width: 1px) and (max-width: 768px){
+
+.row-container > [class^="column-"]{
+
+padding-top: 5px;
+padding-bottom: 5px;
+margin-left: 0;
+}
+
+
+}
+
