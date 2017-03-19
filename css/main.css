@@ -93,7 +93,7 @@ to subtract from the viewport height.
     */
 
     min-height: calc(100vh - 80px);
-    position: absolute;
+    position: relative;
 
 }
 
